@@ -41,13 +41,13 @@ let time = [
     },
 ]
     console.log(time.length)
-    console.table(time)
+    //console.table(time)
 
     //for (let i = 0; < time. length: i++) {
         // console. log(i, time[i]);
     //}
 
-    for (const i in time){
+   /* for (const i in time){
         console.log(i,time[i]);
 
     }
@@ -55,4 +55,16 @@ let time = [
         console.log(jogador);        
     }
 
-    console.table(time);
+    console.table(time);*/
+
+    //for (let i = time;
+      //  
+        //)
+        /*for (const key in time) {
+            time[key]["multiplo"]= time [key]["camisa"]*2;
+            
+        }*/
+        for( const jogador of time){
+            jogador.multiplo = jogador.camisa * 2;
+        }
+        console.table(time)
